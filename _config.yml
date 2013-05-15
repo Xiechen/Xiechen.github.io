@@ -31,7 +31,7 @@ watch:       false    # deprecated
 server:      false    # deprecated
 host:        0.0.0.0
 port:        4000
-baseurl:     /chendell.github.io
+baseurl:     chendell.github.io
 url:         http://chendell.github.io
 lsi:         false
 
