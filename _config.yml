@@ -1,5 +1,6 @@
 markdown: rdiscount
 permalink: :title.html
+baseurl:chendell.github.io
 url: http://chendell.github.io
 lsi: true
 pygments: true
