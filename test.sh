@@ -4,6 +4,9 @@ git add *
 
 git status 
 
-git commit -m"test"
+commit = $1
+
+
+git commit -m"$commit"
 
 git push -u chen master
