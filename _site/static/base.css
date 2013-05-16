@@ -13,7 +13,7 @@
 #header h2{
 	margin: 0px;
 	margin-left: 20px;
-	font-family: Monaco;
+	font-family: Curlz MT,Monaco,Arial;
 	font-size: 80px;
 
 }
@@ -30,29 +30,33 @@
 }
 
 #headbar {
+	font-family:Monaco,Arial;
 	margin-top: 5px;
 	width: 100%;
+	height: 50px;
 	float: left;
 }
 
 #headbar ul{
 	float: left;
 	padding: 0px;
-	margin: 0px;
+	margin-top: 0px;
 	width: 100%;
 	list-style-type:none; 
 
 }
 
 #headbar a{
-	padding: 0.2em 0.6em;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em; 
 	float:left;
-	width: 20%;
+	width: 318.5px;
 	text-decoration:none;
 	color:white;
 	background-color:purple;
 	text-align: center;
 	border-right:1px solid white;
+	margin: 0px;
 }
 
 #headbar a:hover{
@@ -60,5 +64,30 @@
 } 
 
 #headbar li{
+	margin: 0px;
 	display:inline;
+}
+
+#content {
+	float: left;
+	margin-top: 5px;
+	width: 100%;
+	height: 700px;
+	background-color: #F3F3F3;
+}
+
+#footer {
+	float: left;
+	margin-top: 5px;
+	height: 60px;
+	width: 100%;
+	background-color: #F3F3F3;
+}
+
+#footer p { 
+	text-align: center;
+	font-family: Monaco,Arial;
+	font-size: 20px;
+
+
 }
