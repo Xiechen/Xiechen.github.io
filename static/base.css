@@ -50,7 +50,7 @@
 	padding-top: 0.8em;
 	padding-bottom: 0.8em; 
 	float:left;
-	width: 25%;
+	width: 24.9%;
 	text-decoration:none;
 	color:white;
 	background-color:purple;
@@ -64,6 +64,7 @@
 } 
 
 #headbar li{
+	width: 25%;
 	margin: 0px;
 	display:inline;
 }
