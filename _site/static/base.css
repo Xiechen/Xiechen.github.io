@@ -1,6 +1,7 @@
 
-
 #wrapper {
+	position: relative;
+	left: -100px;
 	width: 1024px;
 
 }
