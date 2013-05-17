@@ -1,3 +1,6 @@
 baseurl: /chendell.github.com
-
 url: http://chendell.github.io
+
+host: 0.0.0.0
+
+port: 4000
