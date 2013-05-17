@@ -11,6 +11,11 @@
 	background-color: #F3F3F3;
 }
 
+#header img{
+	position: relative;
+	top: 20px;
+}
+
 #header a{
 	text-decoration: none;
 	color: black;
@@ -32,7 +37,7 @@
 	font-family: helvetica,Arial;
 	position: relative;
 	left: 500px;
-	top: -30px;
+	top: -40px;
 }
 
 #headbar {
