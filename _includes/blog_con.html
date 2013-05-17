@@ -4,7 +4,7 @@
 			  <span class="month">{{ page.date | date:"%b" }}</span>
 			  <span class="year">{{ page.date | date:"%Y" }}</span>
 			 </div>
-			  <h2><a href="{{ site.url }}/{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2>
+			  <h2><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2>
 			 <div class="con">{{ content }}</div>
 			 <div class="prev_and_next">
 				{% if page.previous %}

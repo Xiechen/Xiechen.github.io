@@ -14,7 +14,7 @@ layout: index
  <div class="con">
    <p>
    {{ post.content  | | split:'<!--more-->' | first | strip_html }}
-   <a class="more" href="{{ site.url }}/{{post.url}}">[Detail]</a>
+   <a class="more" href="{{ site.url }}{{post.url}}">[Detail]</a>
    </p>
  </div>
 </div>
