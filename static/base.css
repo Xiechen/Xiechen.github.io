@@ -137,7 +137,7 @@
 
 	padding: 0.7em;
 	font-family: Monaco,Arial;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -151,10 +151,10 @@
 
 #about2 p{
 	position: relative;
-	left: 50px;
+	left: 100px;
 	top: 150px;
 	font-family: Monaco,Arial;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: justify;
 	line-height: 50px;
 	word-spacing: 0.1em;
@@ -163,9 +163,9 @@
 
 #about2 blockquote {
 	position: relative;
-	left: 30px;
+	left: 70px;
 	top: 160px;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: justify;
 	font-family: Monaco,Arial;
 	font-weight: bold;
