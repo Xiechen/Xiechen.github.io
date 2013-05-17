@@ -82,6 +82,12 @@
 	background-color: #F3F3F3;
 }
 
+#about_title {
+
+	float: left;
+	
+}
+
 #footer {
 	float: left;
 	margin-top: 5px;
