@@ -1,4 +1,4 @@
 baseurl: /chendell.github.com
-host: 0.0.0.0
+host: localhost
 port: 4000
 url: http://chendell.github.io
