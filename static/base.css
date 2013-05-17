@@ -1,5 +1,7 @@
 
 #wrapper {
+	position: relative;
+	left: 0px;
 	width: 1024px;
 
 }
