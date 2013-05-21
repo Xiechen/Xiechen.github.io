@@ -13,18 +13,19 @@ layout: index
 </div>
 
  <div class="con">
- 	<hr/>
+ 	
  	<blockquote>
+ 	<hr>
    <p>
    {{ post.content   | split:'<!--more-->' | first | strip_html }}
    <br/>
  	</p>
+ 	<hr>
  	</blockquote>
- 	<hr/>
  </div>
 
 
-<a  class="more" href="{{ site.url }}{{post.url}}">Moreeee!!!</a>
+<a  class="more" href="{{ site.url }}{{post.url}}">More</a>
 
 </div>
 {% endfor %}
