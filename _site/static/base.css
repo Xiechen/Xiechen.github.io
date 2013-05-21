@@ -27,10 +27,16 @@ body {
 	background-color: #DCDCDC;
 }
 
-#header h2{
+#headtitle {
+
+	float: left;
 	position: relative;
-	top: 20px;
-	left: -250px;
+	top: 4.7em;
+	left: 0px;
+}
+
+#headtitle h2 {
+	margin: 0;
 	font-family: Georgia;
 	font-size: 60px;
 }
@@ -41,15 +47,16 @@ body {
 }
 
 
-#header p {
+#slogan {
+	float: left;
 	margin: 0px;
 	font-weight: bold;
 	font-style: italic;
 	font-size: 20px;
 	font-family: helvetica,Arial;
 	position: relative;
-	left: 250px;
-	top: -40px;
+	top: 3.5em;
+	left: 3em;
 }
 
 #headbar {
@@ -202,7 +209,7 @@ body {
 	margin-top: 45px;
 	margin-bottom: 5px;
 	margin-left: 45px;
-	width: 800px;
+	width: 80%;
 	color: black;
 	float: left;
 }
