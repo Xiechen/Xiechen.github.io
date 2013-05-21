@@ -25,7 +25,7 @@
 
 
 body {
-	width: 1200px;
+	width: 100%;
 	line-height: 180%;
 	text-align: center;
 	background-color: #DCDCDC;
@@ -35,7 +35,7 @@ body {
 #wrapper {
 	position: relative;
 	table-layout:fixed;
-	width: 100%;
+	width: 65%;
 	min-height: 900px;
 	background-color: #DCDCDC;
 	display: inline-block;
