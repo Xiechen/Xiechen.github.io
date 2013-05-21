@@ -11,16 +11,18 @@ layout: index
 <div class="PostTitle">
   <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
 </div>
-<hr/>
+
  <div class="con">
+ 	<hr/>
  	<blockquote>
    <p>
    {{ post.content   | split:'<!--more-->' | first | strip_html }}
    <br/>
  	</p>
  	</blockquote>
+ 	<hr/>
  </div>
-<hr/>
+
 
 <a  class="more" href="{{ site.url }}{{post.url}}">More</a>
 

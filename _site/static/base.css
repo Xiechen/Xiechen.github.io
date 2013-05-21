@@ -1,7 +1,7 @@
 /*总的配置*/
 body {
+	text-align: center;
 	margin: 0 auto;
-	width: 900px;
 }
 
 #wrapper {
@@ -21,7 +21,7 @@ body {
 #header h2{
 	position: relative;
 	top: -15px;
-	left: 20px;
+	left: -250px;
 	font-family: Georgia;
 	font-size: 60px;
 }
@@ -39,7 +39,7 @@ body {
 	font-size: 20px;
 	font-family: helvetica,Arial;
 	position: relative;
-	left: 500px;
+	left: 200px;
 	top: -90px;
 }
 
@@ -119,6 +119,7 @@ body {
 
 /*about.html*/
 #about1 {
+	text-align: left;
 	margin-top: 0px;
 	color: black;
 	float: left;
@@ -161,7 +162,7 @@ body {
 
 #about2 p{
 	position: relative;
-	left: 50px;
+	left: 42px;
 	top: 120px;
 	font-family: Monaco,Arial;
 	font-size: 18px;
@@ -214,6 +215,8 @@ body {
 }
 
 .PostTitle {
+	position: relative;
+	left: -250px;
 	font-size: 16px;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 }
@@ -227,6 +230,9 @@ body {
 }
 
 .con {
+	text-align: left;
+	position: relative;
+	left: 0px;
 	font-weight: bold;
 	font-size: 17px;
 	font-family: STKaiti,helvetica,Monaco,Arial;
@@ -235,7 +241,7 @@ body {
 .date {
 	position: relative;
 	top: 40px;
-	left: 640px;
+	left: 300px;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 	font-size: 20px;
 	font-weight: bolder;
@@ -251,7 +257,7 @@ body {
 	padding: 5px;
 	position: relative;
 	top: 0px;
-	left: 700px;
+	left: 340px;
 	background-color: #1E90FF;
 	
 }
