@@ -6,6 +6,7 @@ body {
 }
 
 #wrapper {
+	text-align: center;
 	width: 930px;
 	margin:0 auto;
 	background-color: #DCDCDC;
@@ -187,6 +188,8 @@ body {
 
 /* blog.html index.html */
 .post {
+	position: relative;
+	left: -50px;
 	padding: 5px;
 	margin-top: 45px;
 	margin-bottom: 5px;
