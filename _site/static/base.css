@@ -1,15 +1,18 @@
 /*总的配置*/
 body {
+
 	text-align: center;
-	margin: 0 auto;
+	margin: 0 ;
 	background-color: #DCDCDC;
 }
 
 #wrapper {
 	text-align: center;
 	width: 930px;
+	min-height: 1200px;
 	margin:0 auto;
 	background-color: #DCDCDC;
+	display: inline-block;
 
 }
 
