@@ -3,7 +3,7 @@ body {
 
 	line-height: 180%;
 	text-align: center;
-	margin: 0;
+	margin-left margin-right: 0 auto;
 	background-color: yellow;
 }
 
@@ -11,7 +11,7 @@ body {
 	table-layout:fixed;
 	width: 930px;
 	min-height: 1200px;
-	margin: 0px auto;
+	margin-left margin-right: 0px auto;
 	background-color: #DCDCDC;
 	display: inline-block;
 	padding: 0 5px 0 5px;
