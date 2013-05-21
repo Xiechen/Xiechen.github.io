@@ -1,5 +1,6 @@
 /*总的配置*/
 body {
+	width: 1000px;
 
 	line-height: 180%;
 	text-align: center;
@@ -12,7 +13,8 @@ body {
 	width: 930px;
 	min-height: 1200px;
 	margin-left margin-right: 0px auto;
-	background-color: #DCDCDC;
+	/*background-color: #DCDCDC;*/
+	background-color: green;
 	display: inline-block;
 	padding: 0 5px 0 5px;
 
