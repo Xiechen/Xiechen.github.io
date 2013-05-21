@@ -1,20 +1,19 @@
 /*总的配置*/
-body {
+/*body {
 	width: 1000px;
 	line-height: 180%;
 	text-align: center;
 	background-color: red;
-}
+}*/
 
 #wrapper {
 	position: relative;
 	left: 100px;
 	table-layout:fixed;
 	width: 930px;
-	min-height: 1200px;
+	min-height: 900px;
 	margin: 0 auto;
-	/*background-color: #DCDCDC;*/
-	background-color: green;
+	background-color: #DCDCDC;
 	display: inline-block;
 	padding: 0 5px 0 5px;
 
@@ -29,8 +28,8 @@ body {
 
 #header h2{
 	position: relative;
-	top: 0px;
-	left: -250px;
+	top: -20px;
+	left: 20px;
 	font-family: Georgia;
 	font-size: 60px;
 }
@@ -49,8 +48,8 @@ body {
 	font-family: helvetica,Arial;
 	position: relative;
 	
-	left: 260px;
-	top: -50px;
+	left: 550px;
+	top: -90px;
 }
 
 #headbar {
