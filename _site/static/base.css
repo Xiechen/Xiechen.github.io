@@ -124,7 +124,7 @@ body {
 
 	margin: 0px;
 	float: left;
-	width: 900px;
+	width: 100%;
 	min-height: 700px;
 	background-color: #DCDCDC;
 
@@ -136,7 +136,7 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;
 	height: 60px;
-	width: 900px;
+	width: 100%;
 	background-color: #DCDCDC;
 }
 
