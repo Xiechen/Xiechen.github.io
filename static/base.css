@@ -5,6 +5,7 @@
 }
 
 #header {
+	margin:0px;
 	float: left;
 	width: 100%;
 	height: 110px;
@@ -37,16 +38,16 @@
 }
 
 #headbar {
-	margin-top: 5px;
+	margin: 0px;
 	width: 100%;
-	height: 50px;
+	height: 47px;
 	float: left;
 }
 
 #headbar ul{
 	float: left;
 	padding: 0px;
-	margin-top: 0px;
+	margin: 0px;
 	width: 100%;
 	list-style-type:none; 
 
@@ -69,7 +70,7 @@
 }
 
 #headbar a:hover{
-	background-color:#ff3300
+	background-color:#ff3300;
 } 
 
 #headbar li{
@@ -80,7 +81,6 @@
 
 #content {
 	float: left;
-	margin-top: 3px;
 	width: 100%;
 	height: 700px;
 	background-color: #DCDCDC;
@@ -187,12 +187,7 @@
 
 .post a{
 	font-weight: bold;
-	color: #1E90FF;
 	text-decoration: none;
-}
-
-.post a:hover{
-	color:#ff3300
 }
 
 .post h2 {
@@ -213,19 +208,27 @@
 }
 
 .PostTitle {
-	font-size: 25px;
+	font-size: 16px;
 	font-family: STKaiti,helvetica,Monaco,Arial;
+}
+
+.PostTitle a{
+	color: black;
+}
+
+.PostTitle a:hover{
+	color: #ff3300;
 }
 
 .con {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 17px;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 }
 
 .date {
 	position: relative;
-	top: 55px;
+	top: 40px;
 	left: 640px;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 	font-size: 20px;
@@ -234,9 +237,15 @@
 }
 
 .more {
+	font-family: STKaiti,helvetica,Monaco,Arial;
+	font-size: 18px;
+	color: white;
+	width: 40px;
+	border:2px solid white;
+	padding: 5px;
 	position: relative;
 	top: 0px;
 	left: 700px;
-	font-family: STKaiti,helvetica,Monaco,Arial;
-	font-size: 21px;
+	background-color: #1E90FF;
+	
 }

@@ -1,9 +1,35 @@
 ---
 layout: blog_con
-title: 你好吗？
-tags: blog
+title: DreamLand搭建进度（一）
+tags: Tech
 ---
-#This is mY First Blog.
+
+###第一个认真搭建的博客
 
 
-WO RI A!
+__今天的任务（已完成）：__
+
+1. 完成了主页的基本布局，成功搞定了jekyll，并且在github上成功生成了页面
+
+1. 完成了base的css 确定了整个blog的基调
+
+1. 完成了About Me页面的布局和内容填充
+
+1. 学会了用jekyll 了解了jekyll的本地参数
+
+1. 写了bash脚本来简化对该blog的git上传输入命令的复杂成都
+
+
+__下次的任务：__
+
+1. 完成index和blog页面的详细布局
+
+1. 搞定liquid
+
+1. 把index上的各篇博客的布局和参数写好 形成基本的样式
+
+
+
+
+
+
