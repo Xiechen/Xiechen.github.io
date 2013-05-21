@@ -2,7 +2,6 @@
 
 
 body {
-	width: 100%;
 	line-height: 180%;
 	text-align: center;
 	background-color: #DCDCDC;
@@ -12,7 +11,7 @@ body {
 #wrapper {
 	position: relative;
 	table-layout:fixed;
-	width: 75%;
+	width: 930px;
 	min-height: 900px;
 	background-color: #DCDCDC;
 	display: inline-block;
@@ -209,7 +208,7 @@ body {
 	margin-top: 45px;
 	margin-bottom: 5px;
 	margin-left: 45px;
-	width: 80%;
+	width: 840px;
 	color: black;
 	float: left;
 }
