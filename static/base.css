@@ -1,4 +1,26 @@
 /*总的配置*/
+::-webkit-scrollbar-track-piece{
+	background-color:#EEE;
+	-webkit-border-radius:0;
+}
+::-webkit-scrollbar{
+	width:16px;
+	height:8px;
+}
+::-webkit-scrollbar-thumb{
+	height:50px;
+	background-color:#DDD;
+	-webkit-border-radius:4px;
+	outline:2px solid #EEE;
+	outline-offset:-2px;
+	border: 2px solid #EEE;
+}
+::-webkit-scrollbar-thumb:hover{
+	height:50px;
+	background-color:#40AA52;
+	-webkit-border-radius:4px;
+}
+
 body {
 	line-height: 180%;
 	text-align: center;
