@@ -30,12 +30,6 @@ body {
 	background-color: #eeeeee;
 }
 
-div{
-border:0;
-text-align:left;
-margin:0;
-padding:0;
-}
 
 #wrapper {
 	position: relative;
@@ -45,6 +39,7 @@ padding:0;
 	background-color: #DCDCDC;
 	display: inline-block;
 	padding: 0 5px 0 5px;
+	margin: 0 auto;
 
 }
 #header {
