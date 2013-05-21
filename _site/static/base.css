@@ -48,6 +48,7 @@ body {
 
 #headbar {
 	margin-top: 10px;
+	margin-right: 0px;
 	margin-bottom: 10px;
 	width: 100%;
 	height: 47px;
@@ -90,9 +91,10 @@ body {
 }
 
 #content {
+	margin: 0px;
 	float: left;
 	width: 100%;
-	height: 700px;
+	min-height: 700px;
 	background-color: #DCDCDC;
 }
 
@@ -105,6 +107,8 @@ body {
 #footer {
 	float: left;
 	margin-top: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
 	height: 60px;
 	width: 100%;
 	background-color: #DCDCDC;
