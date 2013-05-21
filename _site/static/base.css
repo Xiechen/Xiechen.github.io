@@ -1,18 +1,17 @@
 /*总的配置*/
 body {
 	width: 1000px;
-
 	line-height: 180%;
 	text-align: center;
-	margin-left margin-right: 0 auto;
 	background-color: red;
 }
 
 #wrapper {
+	position: relative;
 	table-layout:fixed;
 	width: 930px;
 	min-height: 1200px;
-	margin-left margin-right: 0px auto;
+	margin: 0 auto;
 	/*background-color: #DCDCDC;*/
 	background-color: green;
 	display: inline-block;
