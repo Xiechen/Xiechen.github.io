@@ -141,6 +141,9 @@ body {
 /*给不同的页面的css*/
 
 /*about.html*/
+#about {
+	width: 100%;
+}
 #about1 {
 	text-align: left;
 	margin-top: 0px;
@@ -337,6 +340,10 @@ body {
 	float: left;
 }
 /* blog_con.html */
+.blog_con {
+	
+	width: 100%;
+}
 .pre {
 	position: relative;
 	top: 0.5em;
