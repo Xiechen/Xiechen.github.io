@@ -1,9 +1,51 @@
 <div id="content">
-			 <div class="date">
+
+			 <div class="title">
+			  <h2>{{ page.title }}</h2>
+			  <hr>
+			</div> 
+			<div class="con_date">
 			  <span class="day">{{ page.date | date:"%d" }}</span>
 			  <span class="month">{{ page.date | date:"%b" }}</span>
 			  <span class="year">{{ page.date | date:"%Y" }}</span>
 			 </div>
-			  <h2><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2>
-			 <div class="con">{{ content }}</div>
+
+			<div class="tags">
+				TAGS:{{ page.tags }}
+			</div>
+			 <div class="con_con">
+
+			 	<div class="text">
+			 		{{ content }}</div>
+			 	</div>
+			 	<hr>
+			 <div class="pre">
+			 	{% if page.previous %}
+			 	<strong>
+			 		<a href="{{ page.previous.url }}" 
+			 		title="{{ page.previous.title }}">
+			 		上一篇</a>
+			 	</strong>
+			 	{% else %}
+			 	<strong>没有了哦</strong>
+			 	{% endif %}
+			 </div>
+
+			 <div class="back">
+			 	<a href="{{ site.url }}">回到主页</a>
+			 </div>
+
+			 <div class="next">
+			 	{% if page.next %}
+			 	<strong>
+			 		 <a href="{{ page.next.url }}" 
+			 		title="{{ page.next.title }}">下一篇</a>
+			 	</strong>
+			 	{% else %}
+			 	<strong> 
+			 		没有了哦 
+			 	</strong>
+			 	{% endif %}
+			 	
+			 </div>
 </div>

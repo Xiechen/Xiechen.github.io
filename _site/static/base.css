@@ -128,10 +128,16 @@ body {
 	font-weight: bold;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 	font-size: 20px;
-
-
 }
 
+#footer a {
+	text-decoration: none;
+	color: black;
+}
+
+#footer a:hover{
+	color:#1E90FF;
+}
 /*给不同的页面的css*/
 
 /*about.html*/
@@ -295,4 +301,78 @@ body {
 	left: 36em;
 	background-color: #1E90FF;
 	
+}
+
+/* blog_con.html */
+.pre {
+	position: relative;
+	top: 2em;
+	left: 15%;
+	float: left;
+	font-family: STKaiti,helvetica,Monaco,Arial;
+}
+
+.pre .next .back,a{
+	color: black;
+	text-decoration: none;
+}
+
+.pre .next .back,a:hover{
+	color: #1E90FF;
+}
+
+.next {
+	position: relative;
+	top: 2em;
+	left: 60%;
+	float: left;
+	font-family: STKaiti,helvetica,Monaco,Arial;
+}
+
+
+.back {
+	text-align: center;
+	position: relative;
+	top: 2em;
+	left: 42%;
+	float: left;
+	font-family: STKaiti,helvetica,Monaco,Arial;
+}
+
+
+.title {
+	font-family: STKaiti,helvetica,Monaco,Arial;
+	font-size: 
+}
+
+.title a {
+	color: black;
+	text-decoration: none;
+}
+
+.con_con{
+	position: relative;
+	left: 0em;
+	text-align: left;
+	font-family: STKaiti,helvetica,Monaco,Arial;
+}
+
+.text {
+	position: relative;
+	left: 2em;
+}
+
+.con_date {
+	position: relative;
+	left: -5em;
+	font-family: STKaiti,helvetica,Monaco,Arial;
+	font-size: 1.2em;
+}
+
+.tags {
+	font-family: STKaiti,helvetica,Monaco,Arial;
+	position: relative;
+	top: -1.8em;
+	left: 5em;
+	font-size: 1em;
 }
