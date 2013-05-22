@@ -2,8 +2,8 @@
 
 			 <div class="title">
 			  <h2>{{ page.title }}</h2>
-			  <hr>
 			</div> 
+			<div class="bar_head">
 			<div class="con_date">
 			  <span class="day">{{ page.date | date:"%d" }}</span>
 			  <span class="month">{{ page.date | date:"%b" }}</span>
@@ -13,12 +13,14 @@
 			<div class="tags">
 				TAGS:{{ page.tags }}
 			</div>
+		</div>
 			 <div class="con_con">
 
 			 	<div class="text">
-			 		{{ content }}</div>
+			 		{{ content }}
 			 	</div>
-			 	<hr>
+			 	</div>
+			 <div class="bar">
 			 <div class="pre">
 			 	{% if page.previous %}
 			 	<strong>
@@ -32,7 +34,7 @@
 			 </div>
 
 			 <div class="back">
-			 	<a href="{{ site.url }}">回到主页</a>
+			 	<a href="{{ site.url }}/index.html">回到主页</a>
 			 </div>
 
 			 <div class="next">
@@ -46,6 +48,6 @@
 			 		没有了哦 
 			 	</strong>
 			 	{% endif %}
-			 	
+			 </div>
 			 </div>
 </div>

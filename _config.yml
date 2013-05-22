@@ -1,0 +1,6 @@
+#m每一页显示的文章数
+paginate: 2
+
+
+source: .
+pygments: true

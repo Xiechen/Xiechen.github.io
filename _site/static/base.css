@@ -21,16 +21,16 @@ body {
 #header {
 	margin:0px;
 	float: left;
-	height: 110px;
+	height: 80px;
 	width: 100%;
 	background-color: #DCDCDC;
+	
 }
 
 #headtitle {
-
 	float: left;
 	position: relative;
-	top: 4.7em;
+	top: 2em;
 	left: 0px;
 }
 
@@ -54,7 +54,7 @@ body {
 	font-size: 20px;
 	font-family: helvetica,Arial;
 	position: relative;
-	top: 3.5em;
+	top: 1.5em;
 	left: 3em;
 }
 
@@ -108,7 +108,7 @@ body {
 	margin: 0px;
 	float: left;
 	width: 100%;
-	min-height: 700px;
+	min-height: 400px;
 	background-color: #DCDCDC;
 
 }
@@ -207,16 +207,18 @@ body {
 
 /* blog.html index.html */
 .post {
+	border-top: solid 1px black;
+	
 	text-align: left;
 	position: relative;
 	float: left;
 	padding: 5px;
 	margin-top: 45px;
 	margin-bottom: 5px;
-	margin-left: 45px;
 	width: 100%;
 	color: black;
 	float: left;
+	
 }
 
 .post a{
@@ -228,7 +230,7 @@ body {
 .post h2 {
 	float: left;
 	font-family: STKaiti,helvetica,Monaco,Arial;
-	margin-left: 15px;
+	margin-left: 0px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 } 
@@ -237,15 +239,17 @@ body {
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-left: 10px;
 
 }
 
 
 
 .PostTitle {
+	clear: both;
+
 	float: left;
 	position: relative;
-	left: -160px;
 	font-size: 16px;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 }
@@ -260,27 +264,24 @@ body {
 }
 
 .con {
+	
 	float: left;
+	clear: both;
 	text-align: left;
 	position: relative;
-	left: -70px;
+	left: 0em;
 	font-weight: bold;
 	font-size: 17px;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 }
 
-#line {
-	float: left;
-	position: relative;
-	left: 30px;
-	height: 2px;
-}
 
 .date {
+	clear: both;
+	
 	float: left;
 	position: relative;
-	top: 1.5em;
-	left: 30em;
+	left:35em;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 	font-size: 20px;
 	font-weight: bolder;
@@ -288,6 +289,7 @@ body {
 }
 
 .more {
+	clear: both;
 	text-align: center;
 	float: left;
 	font-family: STKaiti,helvetica,Monaco,Arial;
@@ -297,12 +299,43 @@ body {
 	border:2px solid white;
 	padding: 5px;
 	position: relative;
-	top: 0em;
-	left: 36em;
+	top: 0.5em;
+	left: 40em;
 	background-color: #1E90FF;
 	
 }
 
+/* 分页的 */
+
+#pagination {
+	margin:3em auto 1em auto;  
+	float: right;
+	position: relative;
+
+	font-size: 1.1em;
+	font-family: STKaiti,helvetica,Monaco,Arial;
+}
+
+.page_pre {
+	margin-right: 1em;
+	float: left;
+}
+
+.page_num {
+	word-spacing: 50;
+	float: left;
+
+}
+
+.page_next {
+	margin-left: 1em;
+	float: left;
+}
+
+.total_num {
+	margin-left: 2em;
+	float: left;
+}
 /* blog_con.html */
 .pre {
 	position: relative;
@@ -311,16 +344,6 @@ body {
 	float: left;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 }
-
-.pre .next .back,a{
-	color: black;
-	text-decoration: none;
-}
-
-.pre .next .back,a:hover{
-	color: #1E90FF;
-}
-
 .next {
 	position: relative;
 	top: 0.5em;
@@ -340,14 +363,18 @@ body {
 }
 
 
-.title {
-	font-family: STKaiti,helvetica,Monaco,Arial;
-	font-size: 
-}
-
-.title a {
+.pre .next .back,a{
 	color: black;
 	text-decoration: none;
+}
+
+.pre .next .back,a:hover{
+	color: #1E90FF;
+}
+
+
+.title {
+	font-family: STKaiti,helvetica,Monaco,Arial;
 }
 
 .con_con{
@@ -358,21 +385,41 @@ body {
 }
 
 .text {
+	width: 100%;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+	clear: both;
+	float: left;
 	position: relative;
-	left: 2em;
+	left: 0em;
 }
 
 .con_date {
+	
+	float: left;
 	position: relative;
-	left: -5em;
+	left: 0em;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 	font-size: 1.2em;
 }
 
 .tags {
+	margin-left: 5em; 
+	float: left;
 	font-family: STKaiti,helvetica,Monaco,Arial;
 	position: relative;
-	top: -1.8em;
-	left: 5em;
+	top: 0em;
+	left: 0em;
 	font-size: 1em;
+}
+
+.bar {
+	position: relative;
+	left: 20em;
+	float: left;
+	clear: both;
+}
+.bar_head {
+	position: relative;
+	left: 20em;
 }
