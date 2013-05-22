@@ -306,7 +306,7 @@ body {
 /* blog_con.html */
 .pre {
 	position: relative;
-	top: 2em;
+	top: 0.5em;
 	left: 15%;
 	float: left;
 	font-family: STKaiti,helvetica,Monaco,Arial;
@@ -323,7 +323,7 @@ body {
 
 .next {
 	position: relative;
-	top: 2em;
+	top: 0.5em;
 	left: 60%;
 	float: left;
 	font-family: STKaiti,helvetica,Monaco,Arial;
@@ -333,7 +333,7 @@ body {
 .back {
 	text-align: center;
 	position: relative;
-	top: 2em;
+	top: 0.5em;
 	left: 42%;
 	float: left;
 	font-family: STKaiti,helvetica,Monaco,Arial;
