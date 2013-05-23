@@ -1,9 +1,7 @@
 ---
 layout: category
-title: Category
-archives: true
 ---
-<div id="arch">
+<div class="arch">
 	{% for post in site.posts  %}
 		{% capture y %}{{ post.date | date:"%Y" }}{% endcapture %}
     	{% capture m %}{{ post.date | date:"%m" }}{% endcapture %}
@@ -15,7 +13,13 @@ archives: true
       {% else %}
       </ul>
       {% endif %}
-    	<h3>{{ y }}<h3>
+    	<div class="arch_y">
+
+    		<h2>{{ y }}</h2>
+
+    	</div>
+    	
+    		
 
 
 
@@ -23,27 +27,37 @@ archives: true
 
     	{% if month != m %}
 
-    		{% assign month =m %}
+    		{% assign month = m %}
 
-    		{% if forloop.first %}
+    	{% if forloop.first %}
     		{% else %}
     	</ul>
+    	{% endif %}
+  
+    	<div class="arch_m"><h3>{{ m }}</h3></div>
 
     	{% endif %}
+    	<div class="arch_con">
+    	<ul>
 
-    	<h3>{{ m }}</h3>
-
-    	{% endif %}
+    	
+    	
     	<li>
-			<time datetime="{{ post.date | date:"%m-%d" }}">{{ post.date | date:"%m-%d" }}</time>
+			<time datetime="{{ post.date | date:"%m-%d" }}">
+				{{ post.date | date:"%m-%d" }}</time>
 			<a href="{{ site.url }}/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		</li>
-
+		</ul>
     	{% if forloop.next %}
     </ul>
+
     {% endif %}
 
     	{% if forloop.next %}
     </ul>
     {% endif %}
-	{% endfor %}
+</div>
+
+    {% endfor %}
+
+</div>

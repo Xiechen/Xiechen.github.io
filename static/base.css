@@ -453,20 +453,49 @@ body {
 }
 
 /* 分页 */
-#arch {
+.arch {
+	border-top: solid 1px gray;
+	margin-top: 1em;
+	font-family: STKaiti,helvetica,Monaco,Arial;
 	float: left;
 	width: 100%;
 	text-align: left;
-	background-color: red;
-}
-.arch_y {
-	float: left;
-	clear: both;
-	background-color: blue;
 }
 
-.arch_con {
+.arch h3,h2,ul{
+	margin: 0.1em;
+}
+.arch_y {
+	margin-top: 1em;
+	font-size: 1.1em;
+	padding: 0;
+	font-weight: bold;
+	position: relative;
+	left: 2em;
 	float: left;
 	clear: both;
-	background-color: orange;
+	
+}
+
+.arch_m {
+	margin: 0;
+	font-style: italic;
+	font-size: 1.1em;
+	position: relative;
+	left: 3em;
+	float: left;
+	clear: both;
+
+}
+
+
+.arch_con {
+
+	font-size: 1em;
+	position: relative;
+	left: 4em;
+	font-size: ;
+	float: left;
+	clear: both;
+	
 }
