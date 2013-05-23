@@ -451,3 +451,22 @@ body {
 	position: relative;
 	left: 20em;
 }
+
+/* 分页 */
+#arch {
+	float: left;
+	width: 100%;
+	text-align: left;
+	background-color: red;
+}
+.arch_y {
+	float: left;
+	clear: both;
+	background-color: blue;
+}
+
+.arch_con {
+	float: left;
+	clear: both;
+	background-color: orange;
+}
