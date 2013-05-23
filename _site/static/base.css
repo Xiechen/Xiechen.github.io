@@ -390,17 +390,15 @@ body {
 	left: 0em;
 	text-align: left;
 	font-family: STKaiti,helvetica,Monaco,Arial;
-}
-
-.text {
 	width: 100%;
 	border-top: solid 1px black;
 	border-bottom: solid 1px black;
 	clear: both;
 	float: left;
-	position: relative;
-	left: 0em;
+	
 }
+
+
 
 .con_date {
 	
