@@ -142,6 +142,8 @@ body {
 
 /*about.html*/
 #about {
+	clear: both;
+	float: left;
 	width: 100%;
 }
 #about1 {
