@@ -490,7 +490,7 @@ body {
 
 
 .arch_con {
-
+	font-weight: bold;
 	font-size: 1em;
 	position: relative;
 	left: 4em;
