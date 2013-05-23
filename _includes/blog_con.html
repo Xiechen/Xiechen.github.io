@@ -1,26 +1,30 @@
 <div id="content">
 
 <div class="blog_con">
-			 <div class="title">
-			  <h2>{{ page.title }}</h2>
-			</div> 
-			<div class="bar_head">
-			<div class="con_date">
+	<div class="con_head">
+			 
+			  <h2 class=title>{{ page.title }}</h2>
+			
+			
+			<div class="tags_date">
+				<div class="con_date">
 			  <span class="day">{{ page.date | date:"%d" }}</span>
 			  <span class="month">{{ page.date | date:"%b" }}</span>
 			  <span class="year">{{ page.date | date:"%Y" }}</span>
-			 </div>
-
-			<div class="tags">
-				TAGS:{{ page.tags }}
 			</div>
-		</div>
-			 <div class="con_con">
+
+			
+				<div class=tags>TAGS:{{ page.tags }}</div>
+			</div>
+		
+	</div>
+		<div class="con_con">
 
 			 	
 			 		{{ content }}
 			 	
 			 	</div>
+			 	<div class="con_foot">
 			 <div class="bar">
 			 <div class="pre">
 			 	{% if page.previous %}
@@ -51,5 +55,7 @@
 			 	{% endif %}
 			 </div>
 			 </div>
+			</div>
 </div>
+
 </div>

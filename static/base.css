@@ -220,7 +220,7 @@ body {
 	margin-bottom: 5px;
 	width: 100%;
 	color: black;
-	float: left;
+	
 	
 }
 
@@ -341,8 +341,13 @@ body {
 }
 /* blog_con.html */
 .blog_con {
-	
+	font-family: STKaiti,helvetica,Monaco,Arial;
+	font-weight: bold;
+	float: left;
+	position: relative;
 	width: 100%;
+	min-height: 400px;
+	clear:both;
 }
 .pre {
 	position: relative;
@@ -380,8 +385,13 @@ body {
 	color: #1E90FF;
 }
 
+.con_head {
+	float: left;
+	width: 100%;
+}
 
 .title {
+
 	font-family: STKaiti,helvetica,Monaco,Arial;
 }
 
@@ -398,7 +408,10 @@ body {
 	
 }
 
-
+.con_foot {
+	float: left;
+	width: 100%;	
+}
 
 .con_date {
 	
@@ -417,6 +430,12 @@ body {
 	top: 0em;
 	left: 0em;
 	font-size: 1em;
+}
+
+.tags_date {
+	float: left;
+	position: relative;
+	left: 20em;
 }
 
 .bar {
