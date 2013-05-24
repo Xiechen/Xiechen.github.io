@@ -45,7 +45,7 @@ layout: category
     	<li>
 			<time datetime="{{ post.date | date:"%m-%d" }}">
 				{{ post.date | date:"%m-%d" }}</time>
-			<a href="{{ site.url }}/{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+			<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}---{{ post.tags }}</a>
 		</li>
 		</ul>
     	{% if forloop.next %}
