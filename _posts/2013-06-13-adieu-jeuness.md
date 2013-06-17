@@ -77,8 +77,13 @@ tags: Life
 
 十几年后 我会笑着 哭着 去回味这一段时光 我人生中的最灿烂的时光 没有之一
 
-<br/><br/><br/><br/>
+</br>
+</br>
+
 
 <h2 style="text-align:center;font-weight:bold">再见了 我的青春。</h2>
 
-<br/><br/><br/><br/>
+</br>
+</br>
+
+
